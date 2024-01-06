@@ -1,0 +1,30 @@
+package users
+
+import "strconv"
+
+css border() {
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	margin: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+templ Index() {
+	<html>
+		<head>
+			<meta charset="UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<title>Users</title>
+			<script src="/assets/js/htmx.min.js"></script>
+		</head>
+		<body>
+            <h1 class="title">Counts</h1>
+			<section>
+                <button hx-delete="/users/1" hx-confirm="Are you sure you wish to delete your account?">
+                    Delete My Account
+                </button>
+			</section>
+		</body>
+	</html>
+}

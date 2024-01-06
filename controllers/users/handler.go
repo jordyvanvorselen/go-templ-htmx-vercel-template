@@ -9,5 +9,5 @@ import (
 type Handler struct{}
 
 func (h Handler) Index(c echo.Context) error {
-	return controllers.Render(c, users.Show())
+	return controllers.Render(c, users.Index())
 }
