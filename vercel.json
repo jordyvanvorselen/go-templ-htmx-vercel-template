@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/api/.*",
-      "dest": "router.go"
+      "dest": "api/router.go"
     }
   ]
 }

@@ -1,4 +1,4 @@
-package go_templ_htmx_vercel_template
+package api
 
 import (
 	"github.com/jordyvanvorselen/go-templ-htmx-vercel-template/controllers/users"
