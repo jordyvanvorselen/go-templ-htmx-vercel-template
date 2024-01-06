@@ -1,7 +1,7 @@
-package api
+package go_templ_htmx_vercel_template
 
 import (
-	"github.com/jordyvanvorselen/go-templ-htmx-vercel-template/api/controllers/users"
+	"github.com/jordyvanvorselen/go-templ-htmx-vercel-template/controllers/users"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"net/http"
