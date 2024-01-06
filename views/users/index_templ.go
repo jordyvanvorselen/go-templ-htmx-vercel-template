@@ -9,23 +9,6 @@ import "github.com/a-h/templ"
 import "context"
 import "io"
 import "bytes"
-import "strings"
-
-import "strconv"
-
-func border() templ.CSSClass {
-	var templ_7745c5c3_CSSBuilder strings.Builder
-	templ_7745c5c3_CSSBuilder.WriteString(`border:1px solid #eeeeee;`)
-	templ_7745c5c3_CSSBuilder.WriteString(`border-radius:4px;`)
-	templ_7745c5c3_CSSBuilder.WriteString(`margin:10px;`)
-	templ_7745c5c3_CSSBuilder.WriteString(`padding-top:30px;`)
-	templ_7745c5c3_CSSBuilder.WriteString(`padding-bottom:30px;`)
-	templ_7745c5c3_CSSID := templ.CSSID(`border`, templ_7745c5c3_CSSBuilder.String())
-	return templ.ComponentCSSClass{
-		ID:    templ_7745c5c3_CSSID,
-		Class: templ.SafeCSS(`.` + templ_7745c5c3_CSSID + `{` + templ_7745c5c3_CSSBuilder.String() + `}`),
-	}
-}
 
 func Index() templ.Component {
 	return templ.ComponentFunc(func(ctx context.Context, templ_7745c5c3_W io.Writer) (templ_7745c5c3_Err error) {
