@@ -13,7 +13,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 
-	e.GET("/api/users", users.Handler{}.Index)
+	e.GET("/users", users.Handler{}.Index)
 
 	e.ServeHTTP(w, r)
 }
