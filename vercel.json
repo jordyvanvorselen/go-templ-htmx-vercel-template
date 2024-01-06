@@ -1,6 +1,4 @@
 {
-  "name": "go-templ-htmx-vercel-template",
-  "version": 2,
   "routes": [
     {
       "src": "/api/.*",
