@@ -18,6 +18,13 @@ Feel free to copy this repo and change it to your own needs.
 
 The only thing you need to do is [initializing the project on Vercel](https://vercel.com/new) by importing your repository.
 
+### Credits
+
+Resources used to setup this repo:
+
+* https://www.youtube.com/watch?v=wttTTFVrQiw
+* https://gist.github.com/kimihito/9c5ec449e119dd8fb98bf1e076d602b8
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
